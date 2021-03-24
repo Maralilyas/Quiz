@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tv_surak1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1. Шыңғысханның 1211-1215 жылдары жаулап алған жері:"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:id="@+id/rb_s1_jauap1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Русь"
+            />
+        <RadioButton
+            android:id="@+id/rb_s1_jauap2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Қытай"
+            />
+        <RadioButton
+            android:id="@+id/rb_s1_jauap3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Хорезм"
+            />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/tv_surak2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2. Түрксіб теміржолын салуға басшылық еткен қазақ зиялысы:"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:id="@+id/rb_s2_jauap1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Қ.Сәтбаев"
+            />
+        <RadioButton
+            android:id="@+id/rb_s2_jauap2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Ж.Мыңбаев"
+            />
+        <RadioButton
+            android:id="@+id/rb_s2_jauap3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Т.Рысқұлов"
+            />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/tv_surak3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3. Тәуелсіз Мемлекеттер Достығы(ТМД) құрылды:"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:id="@+id/rb_s3_jauap1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="1991ж. 21 желтоқсан, Алматы"
+            />
+        <RadioButton
+            android:id="@+id/rb_s3_jauap2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="1991ж. 18 тамыз, Бишкек"
+            />
+        <RadioButton
+            android:id="@+id/rb_s3_jauap3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="1991ж. 13 желтоқсан, Ашхабад"
+            />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/tv_surak4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="4. Қаңлылардың Жетіасар кешеніндегі ең үлкен қаласы:"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:id="@+id/rb_s4_jauap1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Алтынасар"
+            />
+        <RadioButton
+            android:id="@+id/rb_s4_jauap2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Көк-Мардан"
+            />
+        <RadioButton
+            android:id="@+id/rb_s4_jauap3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Пұшық-Мардан"
+            />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btn_tekseris"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:backgroundTint="@color/white"
+        android:text="Тексеріс"/>
+
+</LinearLayout>
+</ScrollView>
